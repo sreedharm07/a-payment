@@ -1,3 +1,6 @@
 component: payment
 service_type: ClusterIP
 targetPort: 8080
+env: prod
+schema:
+  enabled: false
